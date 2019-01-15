@@ -1,0 +1,32 @@
+.cursor {
+  animation: blink 1s infinite steps(1, start);
+  display: inline-block;
+  height: 1rem;
+  width: 0.5rem;
+}
+
+.activate {
+  background: none;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  text-shadow: inherit;
+}
+
+.activate:hover {
+  background: #ffcd00;
+  color: #333;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
