@@ -1,0 +1,19 @@
+.tips {
+  font-variant: small-caps;
+  font-weight: bold;
+  color: #1f1b1b;
+  padding: 2rem;
+  text-shadow: 1px 1px 1px #555;
+}
+
+a {
+  color: #000;
+}
+
+h3 {
+  text-align: center;
+}
+
+.list {
+  list-style: none;
+}
