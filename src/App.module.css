@@ -1,13 +1,14 @@
 .tips {
+  font-size: 1rem;
   font-variant: small-caps;
   font-weight: bold;
-  color: #1f1b1b;
+  color: #2f2828;
   padding: 2rem;
-  text-shadow: 1px 1px 1px #555;
+  text-shadow: 1px 1px 0px #808080;
 }
 
 a {
-  color: #000;
+  color: #111;
 }
 
 h3 {
@@ -16,4 +17,11 @@ h3 {
 
 .list {
   list-style: none;
+  padding: 0;
+}
+
+@media (min-width: 1600px) {
+  .tips {
+    font-size: 1.5rem;
+  }
 }

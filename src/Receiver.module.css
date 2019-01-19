@@ -21,6 +21,18 @@
   color: #333;
 }
 
+.centre {
+  text-align: center;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.transmission {
+  padding-bottom: 200%;
+}
+
 @keyframes blink {
   0%,
   100% {

@@ -12,11 +12,11 @@ class App extends Component {
           <Receiver />
         </Sage>
         <div className={style.tips}>
-          <h3>Remember</h3>
+          <h3>Operating Notes</h3>
           <ul className={style.list}>
-            <li>&raquo; Mic.: Full frequency response required (~20kHz)</li>
+            <li>&#9755; Mic.: Full frequency response required (>19kHz)</li>
             <li>
-              &raquo; Recommended source test material:{' '}
+              &#9755; Recommended source test material:{' '}
               <a href="https://open.spotify.com/album/2amRP58tbPgA6aVJg8aMxj?si=utykSdpcS5yoWzCZCiApSA">
                 Stream
               </a>{' '}
@@ -25,10 +25,11 @@ class App extends Component {
                 Lossless
               </a>
             </li>
-            <li>&raquo; Direct signal path recommended</li>
-            <li>&raquo; Avoid signal overload/distortion</li>
-            <li>&raquo; Run array defrost cycle in cold weather</li>
-            <li>&raquo; Empty ashtray at end of shift</li>
+            <li>&#9755; Direct signal path recommended</li>
+            <li>&#9755; Avoid signal overload/distortion</li>
+            <li>&#9755; Recommended interfaces: Chrome, Firefox.</li>
+            <li>&#9755; Run array defrost cycle in cold weather</li>
+            <li>&#9755; Empty ashtray at end of shift</li>
           </ul>
         </div>
       </>

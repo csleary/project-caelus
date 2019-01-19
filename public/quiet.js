@@ -1036,7 +1036,7 @@ var Quiet = (function() {
 
   function resume() {
     audioCtx.resume().then(() => {
-      console.log('Audio resumed.');
+      console.log('AudioContext resumed. Enjoy!');
     });
   }
 
