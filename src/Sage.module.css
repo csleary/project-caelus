@@ -42,7 +42,7 @@ p {
   text-shadow: 0rem 0.2rem 1rem #ffcd0080;
   color: #ffcd00;
   font-family: 'VT323';
-  font-size: 2rem;
+  font-size: 1.2rem;
   overflow: auto;
   padding: 15%;
   position: absolute;
@@ -108,5 +108,17 @@ p {
   }
   to {
     opacity: 1;
+  }
+}
+
+@media (min-width: 576px) {
+  .screen {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1366px) {
+  .screen {
+    font-size: 2rem;
   }
 }
